@@ -1,11 +1,15 @@
 import React from "react";
-import "./style.css";
+import "./App.css";
+import AudiotrackIcon from '@mui/icons-material/Audiotrack';
+import Login from "./Login.js";
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Spotify</h1>
-      <p></p>
+      <Login/>
     </div>
   );
 }
+
+
+export default App;
