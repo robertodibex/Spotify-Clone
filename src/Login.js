@@ -1,5 +1,6 @@
 import React from "react";
-import "./Login.css"
+import "./Login.css";
+import { loginUrl } from "./spotify.js";
 
 function Login() {
   return (
@@ -9,9 +10,9 @@ function Login() {
 
       src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png"
       alt=""
-      />
+       />
 
-      <button>LOGIN WITH SPOTIFY</button>
+      <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
 
 
 
